@@ -1,0 +1,17 @@
+.label-carousel {
+  color: black;
+  text-shadow: 2px 2px 8px white;
+  vertical-align: middle;
+}
+
+.carousel-item {
+  height: 650px;
+}
+
+.carousel-item img {
+  object-fit: cover;
+  object-position: center; /* Center the image within the element */
+  max-height: 650px;
+  margin-bottom: 3rem;
+  height: 100%;
+}

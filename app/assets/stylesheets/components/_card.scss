@@ -1,0 +1,15 @@
+a {
+  color: black;
+}
+
+.cards {
+display: grid;
+grid-template-columns: 1fr 1fr;
+grid-gap: 16px;
+}
+
+@media (min-width: 576px) {
+  .cards {
+    grid-template-columns: 1fr 1fr;
+  }
+}
